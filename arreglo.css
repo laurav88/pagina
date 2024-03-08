@@ -5,22 +5,61 @@
 /* aqui podemos setar los estilos */
 
 *{
+box-sizing: border-box;
 
-    color: rgb(142, 19, 109);
+font-size: 1rem;
+font-weight: 400;
+font-family: kgl, "Roboto", sans-serif;
 
-    font-size: 1rem;
-    font-weight: 400;
-    font-family: kgl, "Roboto", sans-serif;
+border: solid red;
 
+padding: 0%;
+margin: 0%;
+outline: none;
 
 
 }
 
-
-@font-face {
+{
+    @font-face 
     font-family: kgl;
     src: url('/KGLovinOnMe.ttf');
+    
+    text-decoration: none;
+    list-style: none;
 }
+
+
+
+/* 
+a partir de aca comienzan los selectores por etiqueta
+*/
+
+body {
+color: rgb(0, 0, 0);
+background-color: pink;
+background-image: linear-gradient();
+ /* degradado */
+
+
+}
+img{
+    
+    
+    /* cuando trabaje con elementos q no sean textos, usar medidas responsivas . usar 100% */
+    
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
 
 /* 
 algunas medidas utilizadas
