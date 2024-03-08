@@ -1,0 +1,41 @@
+
+/* este es el selector universal, es deir selecciona todo */
+/* este es el menos especifico */
+
+/* aqui podemos setar los estilos */
+
+*{
+
+    color: rgb(142, 19, 109);
+
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: kgl, "Roboto", sans-serif;
+
+
+
+}
+
+
+@font-face {
+    font-family: kgl;
+    src: url('/KGLovinOnMe.ttf');
+}
+
+/* 
+algunas medidas utilizadas
+
+fijas
+
+pixeles px
+puntos pt
+
+EM em
+REM rem  = 1rem = 16
+
+responsivas
+
+
+porcentuales
+referencias de viewport  vw vh
+ */
