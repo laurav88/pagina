@@ -11,7 +11,7 @@ font-size: 1rem;
 font-weight: 400;
 font-family: kgl, "Roboto", sans-serif;
 
-border: solid red;
+border: ;
 
 padding: 0%;
 margin: 0%;
@@ -37,21 +37,23 @@ a partir de aca comienzan los selectores por etiqueta
 
 body {
 color: rgb(0, 0, 0);
-background-color: pink;
+background-color:;
 background-image: linear-gradient();
  /* degradado */
 
 
 }
 img{
+    https://assets.my.dailyvanity.com/wp-content/uploads/2022/09/editorpic2-244x127.png
+   
     
     
     /* cuando trabaje con elementos q no sean textos, usar medidas responsivas . usar 100% */
     
     width: 100%;
-
-
+    
 }
+
 
 
 
