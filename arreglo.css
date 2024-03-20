@@ -112,9 +112,9 @@ referencias de viewport  vw vh
 .navbar__nav {
 
     display: flex;
-    justify-content:space-between;
-    
-    
+    justify-content: space-between;
+
+
 }
 
 .navbar__nav__list {
@@ -123,6 +123,7 @@ referencias de viewport  vw vh
     display: flex;
     justify-content: center;
 }
+
 .navbar__nav__list a,
 .navbar__nav__list li {
     width: max-content;
@@ -140,7 +141,7 @@ referencias de viewport  vw vh
 }
 
 .jumbotron__background {
-    position: absolute;
+    position: center ;
     z-index: index 10;
     top: 0;
     left: 0;
@@ -157,5 +158,3 @@ referencias de viewport  vw vh
 
 
 }
-
-
