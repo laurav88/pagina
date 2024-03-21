@@ -131,31 +131,28 @@ referencias de viewport  vw vh
 
 .jumbotron {
 
-    height: 400px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    
 
 }
 
-.jumbotron__background {
-    position: center ;
-    z-index: index 10;
-    top: 0;
-    left: 0;
+.jumbotron img {
+    position: absolute;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 2;
+    left: 0;
+    top: 0;
+    z-index: -10;
+    opacity: .6;
+    filter:blur(3px);
 }
-
-.jumbotron__title {
-
-    font-size: 1.35rem;
-    margin-bottom: 16;
-
+.jumbotron h2 {
+    font-size: 2.3rem;
 
 }
 .card-container {
