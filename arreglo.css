@@ -39,12 +39,10 @@ a partir de aca comienzan los selectores por etiqueta
 */
 
 body {
-    color:white;
-    /* background-color:; */
-    /* background-image: linear-gradient(); */
-    /* degradado */
-
-
+    color:rgb(213, 205, 205);
+    background-color:rgb(197, 174, 188);
+    background-color: linear-gradient;
+    
 }
 
 img {
